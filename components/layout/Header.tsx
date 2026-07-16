@@ -13,6 +13,7 @@ export function Header() {
           <Link href="/analyze" className="text-gray-600 hover:text-blue-600">Analisar</Link>
           <Link href="/validate" className="text-gray-600 hover:text-blue-600">Validar</Link>
           <Link href="/knowledge" className="text-gray-600 hover:text-blue-600">Conhecimento</Link>
+          <Link href="/history" className="text-gray-600 hover:text-blue-600">Histórico</Link>
         </nav>
       </div>
     </header>
