@@ -40,4 +40,5 @@ export const api = {
   getStats: () => fetchAPI<Stats>('/knowledge/stats'),
 
   getKnowledge: () => fetchAPI<KnowledgeBase>('/knowledge/'),
+  getHistory: (limit: number) => fetchAPI<any>(`/analyze/history?limit=${limit}`)
 };
